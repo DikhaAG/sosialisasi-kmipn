@@ -69,6 +69,13 @@ export default function Home() {
               height={30}
               alt="Picture of the author"
             />
+            <Image
+              className="mb-1"
+              src="/logo-kmipn.webp"
+              width={90}
+              height={25}
+              alt="Picture of the author"
+            />
           </div>
         </div>
       </main>
