@@ -42,13 +42,16 @@ export default function Home() {
 
           {/* Button List */}
           <div className="space-y-6">
+            <Button asChild className="w-full bg-purple-500 hover:bg-purple-700 text-white font-black text-xl md:text-2xl uppercase py-6 px-8 border-4 border-black shadow-[8px_8px_0px_0px_#000] hover:shadow-[4px_4px_0px_0px_#000] hover:translate-x-1 hover:translate-y-1 transition-all duration-150 active:shadow-[2px_2px_0px_0px_#000] active:translate-x-2 active:translate-y-2">
+              <Link href="https://kmipn.pnp.ac.id/">KMIPN VII</Link>
+            </Button>
             <Button asChild
               className="w-full bg-red-500 text-white font-black text-xl md:text-2xl uppercase py-6 px-8 border-4 border-black shadow-[8px_8px_0px_0px_#000] hover:bg-red-700 hover:shadow-[4px_4px_0px_0px_#000] hover:translate-x-1 hover:translate-y-1 transition-all duration-150 active:shadow-[2px_2px_0px_0px_#000] active:translate-x-2 active:translate-y-2">
-              <Link href="/login">Buku Panduan KMIPN VII</Link>
+              <Link href="https://drive.google.com/file/d/1q4DxjZT_A3stX_mX_umdczLSoiTu61n_/view?usp=drive_link">Buku Panduan KMIPN VII</Link>
             </Button>
 
-            <Button asChild className="w-full bg-blue-500 hover:bg-blue-500 text-white font-black text-xl md:text-2xl uppercase py-6 px-8 border-4 border-black shadow-[8px_8px_0px_0px_#000] hover:shadow-[4px_4px_0px_0px_#000] hover:translate-x-1 hover:translate-y-1 transition-all duration-150 active:shadow-[2px_2px_0px_0px_#000] active:translate-x-2 active:translate-y-2">
-              <Link href="/daftar">Daftar</Link>
+            <Button asChild className="w-full bg-blue-500 hover:bg-blue-700 text-white font-black text-xl md:text-2xl uppercase py-6 px-8 border-4 border-black shadow-[8px_8px_0px_0px_#000] hover:shadow-[4px_4px_0px_0px_#000] hover:translate-x-1 hover:translate-y-1 transition-all duration-150 active:shadow-[2px_2px_0px_0px_#000] active:translate-x-2 active:translate-y-2">
+              <Link href="https://forms.gle/YfLF5bdMXteqLDsBA">Formulir Pendataan</Link>
             </Button>
           </div>
         </div>
