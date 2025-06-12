@@ -13,28 +13,43 @@ export default function Home() {
       {/*   </div> */}
       {/* </header> */}
       {/* <div className="w-auto items-center max-w-fit absolute border"> */}
-      <div className="flex m-auto w-fit px-4 py-2 gap-4 cursor-default bg-white rounded-xl shadow-[8px_8px_0px_0px_#000]">
-        <h2 className="sm:hidden w-fit text-3xl md:text-8xl font-black uppercase mb-4 text-black mt-0.5">
-          Road To
-        </h2>
-        <h2 className="hidden sm:flex w-fit text-4xl md:text-8xl font-black uppercase mb-4 text-black mt-0.5">
-          Road To
-        </h2>
-        <h2 style={{ textShadow: "6px 6px black" }} className="hidden sm:flex w-fit text-4xl md:text-8xl font-black uppercase mb-4 text-purple-400">
-          KMIPN VII
-        </h2>
-        <h2 style={{ textShadow: "3px 3px black" }} className="sm:hidden w-fit text-3xl md:text-8xl font-black uppercase mb-4 text-purple-400">
-          KMIPN VII
-        </h2>
+
+      <div className="flex m-auto w-fit px-4 py-2 gap-4 cursor-default ">
+        {/*   <h2 className="sm:hidden w-fit text-3xl md:text-8xl font-black uppercase mb-4 text-black mt-0.5"> */}
+        {/*     Road To */}
+        {/*   </h2> */}
+        {/*   <h2 className="hidden sm:flex w-fit text-4xl md:text-8xl font-black uppercase mb-4 text-black mt-0.5"> */}
+        {/*     Road To */}
+        {/*   </h2> */}
+        {/*   <h2 style={{ textShadow: "6px 6px black" }} className="hidden sm:flex w-fit text-4xl md:text-8xl font-black uppercase mb-4 text-purple-400"> */}
+        {/*     KMIPN VII */}
+        {/*   </h2> */}
+        {/*   <h2 style={{ textShadow: "3px 3px black" }} className="sm:hidden w-fit text-3xl md:text-8xl font-black uppercase mb-4 text-purple-400"> */}
+        {/*     KMIPN VII */}
+        {/*   </h2> */}
+        <Image
+          className="flex md:hidden"
+          src="/Headline.png"
+          width={200}
+          height={200}
+          alt="Picture of the author"
+        />
+        <Image
+          className="hidden md:flex"
+          src="/Headline.png"
+          width={400}
+          height={200}
+          alt="Picture of the author"
+        />
       </div>
-      <div className="m-auto w-fit text-1xl -translate-y-4  md:text-2xl cursor-default bg-white font-black rounded-full px-6 shadow-[8px_8px_0px_0px_#000]">
+      <div className="m-auto w-fit -translate-y-8 md:-translate-y-12 text-xs  md:text-2xl cursor-default bg-white font-black rounded-full px-6 shadow-[4px_4px_0px_0px_#000] md:shadow-[8px_8px_0px_0px_#000]">
         Teknik Komputer 2025
       </div>
 
       {/* </div> */}
       {/* Body */}
-      <main className="flex-1 flex flex-col items-center justify-center min-h-[calc(100vh-200px)] p-6">
-        <div className="w-full max-w-md space-y-8">
+      <main className="flex-1 flex flex-col items-center justify-center  p-6">
+        <div className="w-full max-w-md ">
           {/*<div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-black uppercase mb-4 text-black">CHOOSE YOUR</h2>
             <h3 className="text-2xl md:text-3xl font-black uppercase text-red-500">ADVENTURE</h3>
