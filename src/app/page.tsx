@@ -14,20 +14,20 @@ export default function Home() {
       {/* </header> */}
       {/* <div className="w-auto items-center max-w-fit absolute border"> */}
       <div className="flex m-auto w-fit gap-4 pt-10 cursor-default">
-        <h2 style={{ textShadow: "4px 4px black" }} className="md:hidden w-fit text-5xl md:text-8xl font-black uppercase mb-4 text-white">
+        <h2 style={{ textShadow: "4px 4px black" }} className="sm:hidden w-fit text-3xl md:text-8xl font-black uppercase mb-4 text-white">
           Road To
         </h2>
-        <h2 style={{ textShadow: "6px 6px black" }} className="hidden md:flex w-fit text-4xl md:text-8xl font-black uppercase mb-4 text-white">
+        <h2 style={{ textShadow: "6px 6px black" }} className="hidden sm:flex w-fit text-4xl md:text-8xl font-black uppercase mb-4 text-white">
           Road To
         </h2>
-        <h2 style={{ textShadow: "6px 6px black" }} className="hidden md:flex w-fit text-4xl md:text-8xl font-black uppercase mb-4 text-purple-400">
+        <h2 style={{ textShadow: "6px 6px black" }} className="hidden sm:flex w-fit text-4xl md:text-8xl font-black uppercase mb-4 text-purple-400">
           KMIPN VII
         </h2>
-        <h2 style={{ textShadow: "4px 4px black" }} className="md:hidden w-fit text-5xl md:text-8xl font-black uppercase mb-4 text-purple-400">
+        <h2 style={{ textShadow: "4px 4px black" }} className="sm:hidden w-fit text-3xl md:text-8xl font-black uppercase mb-4 text-purple-400">
           KMIPN VII
         </h2>
       </div>
-      <div className="m-auto w-fit text-2xl md:text-3xl cursor-default">
+      <div className="m-auto w-fit text-1xl  md:text-2xl cursor-default bg-white font-black rounded-full px-6 shadow-[8px_8px_0px_0px_#000]">
         Teknik Komputer 2025
       </div>
 
@@ -55,7 +55,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-        <div className=" absolute bottom-0 mb-4">
+        <div className=" fixed bottom-0 mb-4">
           <div className="flex flex-row gap-3 bg-white px-2 py-2 rounded-full">
             <Image
               src="/aruna.png"
