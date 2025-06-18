@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import { Phone } from "lucide-react";
 
 export default function Home() {
   return (
@@ -70,6 +71,28 @@ export default function Home() {
             </Button>
           </div>
         </div>
+        <Link href="https://wa.me/628978737184">
+          <div className="transition-all fixed right-0 bottom-0 flex flex-row mb-20 mr-6">
+            <div className="flex flex-row gap-3 bg-white px-4 py-2 rounded-full shadow-[6px_6px_0px_0px_#000]">
+              {/* <Image */}
+              {/*   src="/aruna.png" */}
+              {/*   width={30} */}
+              {/*   height={30} */}
+              {/*   alt="Picture of the author" */}
+              {/* /> */}
+              <Phone className="m-auto" />
+              <div className="hidden md:flex md:flex-col">
+                <div className="font-black">Contact Person</div>
+                <div>- Affiyah</div>
+              </div>
+            </div>
+            <div className="relative" >
+              <div className="absolute bg-white bottom-0 p-2 md:p-4 skew-[5deg] md:skew-[10deg] -left-4 md:-left-8 top-6 md:top-8 shadow-[6px_6px_0px_0px_#000]" >
+
+              </div>
+            </div>
+          </div>
+        </Link>
         <div className=" fixed bottom-0 mb-4">
           <div className="flex flex-row gap-3 bg-white px-2 py-2 rounded-full">
             <Image
