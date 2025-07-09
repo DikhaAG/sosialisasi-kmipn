@@ -71,7 +71,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-        <Link href="https://wa.me/628978737184">
+        <Link href="https://wa.me/6289526907311">
           <div className="transition-all fixed right-0 bottom-0 flex flex-row mb-20 mr-6">
             <div className="flex flex-row gap-3 bg-white px-4 py-2 rounded-full shadow-[6px_6px_0px_0px_#000]">
               {/* <Image */}
@@ -83,7 +83,7 @@ export default function Home() {
               <Phone className="m-auto" />
               <div className="hidden md:flex md:flex-col">
                 <div className="font-black">Contact Person</div>
-                <div>- Affiyah</div>
+                <div>- Tri Ambar</div>
               </div>
             </div>
             <div className="relative" >
