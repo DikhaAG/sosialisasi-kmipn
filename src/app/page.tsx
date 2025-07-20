@@ -62,7 +62,7 @@ export default function Home() {
               <Link href="https://kmipn.pnp.ac.id/">KMIPN VII</Link>
             </Button>
             <Button asChild
-              className="w-full bg-red-500 text-white font-black text-xl md:text-2xl uppercase py-6 px-8 border-4 border-black shadow-[8px_8px_0px_0px_#000] hover:bg-red-700 hover:shadow-[4px_4px_0px_0px_#000] hover:translate-x-1 hover:translate-y-1 transition-all duration-150 active:shadow-[2px_2px_0px_0px_#000] active:translate-x-2 active:translate-y-2">
+              className="w-full bg-green-500 text-white font-black text-xl md:text-2xl uppercase py-6 px-8 border-4 border-black shadow-[8px_8px_0px_0px_#000] hover:bg-green-700 hover:shadow-[4px_4px_0px_0px_#000] hover:translate-x-1 hover:translate-y-1 transition-all duration-150 active:shadow-[2px_2px_0px_0px_#000] active:translate-x-2 active:translate-y-2">
               <Link href="https://drive.google.com/file/d/1Opyu1B3L8LqIxrcR8Kt4W30tv-OzLJNK/view?usp=drivesdk">Panduan Daftar KMIPN VII 2025</Link>
             </Button>
             <Button asChild
