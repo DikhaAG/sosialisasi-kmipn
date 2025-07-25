@@ -67,7 +67,7 @@ export default function Home() {
             </Button>
             <Button asChild
               className="w-full bg-red-500 text-white font-black text-xl md:text-2xl uppercase py-6 px-8 border-4 border-black shadow-[8px_8px_0px_0px_#000] hover:bg-red-700 hover:shadow-[4px_4px_0px_0px_#000] hover:translate-x-1 hover:translate-y-1 transition-all duration-150 active:shadow-[2px_2px_0px_0px_#000] active:translate-x-2 active:translate-y-2">
-              <Link href="https://drive.google.com/file/d/1q4DxjZT_A3stX_mX_umdczLSoiTu61n_/view?usp=drive_link">Buku Panduan KMIPN VI 2024</Link>
+              <Link href="https://drive.google.com/file/d/1nlXejf-3KiAxyvN-FZO2lrH_vzNamt58/view?usp=drivesdk">Buku Panduan KMIPN VII 2025</Link>
             </Button>
 
             <Button asChild className="w-full bg-blue-500 hover:bg-blue-700 text-white font-black text-xl md:text-2xl uppercase py-6 px-8 border-4 border-black shadow-[8px_8px_0px_0px_#000] hover:shadow-[4px_4px_0px_0px_#000] hover:translate-x-1 hover:translate-y-1 transition-all duration-150 active:shadow-[2px_2px_0px_0px_#000] active:translate-x-2 active:translate-y-2">
